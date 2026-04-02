@@ -1,0 +1,7 @@
+Instructional Script
+
+1. This is an MVP transcript placeholder.
+2. Swap this implementation with a managed ASR API call in production.
+3. Chunk 0 estimated duration: 30 seconds.
+
+Conclusion: Revisit the key definitions, then apply the concept to one practical example.

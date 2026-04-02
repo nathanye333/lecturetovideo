@@ -1,0 +1,1 @@
+This is an MVP transcript placeholder. Swap this implementation with a managed ASR API call in production. Chunk 0 estimated duration: 30 seconds.

@@ -3,6 +3,9 @@ import Link from "next/link";
 
 import { getJob } from "@/server/jobs/store";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 type PageProps = {
   params: Promise<{ id: string }>;
 };

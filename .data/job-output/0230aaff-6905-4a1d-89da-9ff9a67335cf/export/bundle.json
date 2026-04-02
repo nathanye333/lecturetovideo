@@ -1,0 +1,39 @@
+{
+  "jobId": "0230aaff-6905-4a1d-89da-9ff9a67335cf",
+  "cleanedTranscript": "This is an MVP transcript placeholder. Swap this implementation with a managed ASR API call in production. Chunk 0 estimated duration: 30 seconds.",
+  "script": "Instructional Script\n\n1. This is an MVP transcript placeholder.\n2. Swap this implementation with a managed ASR API call in production.\n3. Chunk 0 estimated duration: 30 seconds.\n\nConclusion: Revisit the key definitions, then apply the concept to one practical example.",
+  "visualPlan": {
+    "scenes": [
+      {
+        "sceneNumber": 1,
+        "objective": "Explain concept 1 clearly.",
+        "narration": "This is an MVP transcript placeholder.",
+        "onScreenText": "This is an MVP transcript placeholder.",
+        "visualType": "diagram",
+        "prompt": "Create a clean educational diagram for: This is an MVP transcript placeholder.",
+        "negativePrompt": "No clutter, no stock-photo style, no unrelated icons, no dense paragraphs.",
+        "sourceSnippet": "This is an MVP transcript placeholder. Swap this implementation with a managed ASR API call in production. Chunk 0 estimated duration: 30 seconds."
+      },
+      {
+        "sceneNumber": 2,
+        "objective": "Explain concept 2 clearly.",
+        "narration": "Swap this implementation with a managed ASR API call in production.",
+        "onScreenText": "Swap this implementation with a managed ASR API call in production.",
+        "visualType": "animation_metaphor",
+        "prompt": "Create a clean educational animation metaphor for: Swap this implementation with a managed ASR API call in production.",
+        "negativePrompt": "No clutter, no stock-photo style, no unrelated icons, no dense paragraphs.",
+        "sourceSnippet": "This is an MVP transcript placeholder. Swap this implementation with a managed ASR API call in production. Chunk 0 estimated duration: 30 seconds."
+      },
+      {
+        "sceneNumber": 3,
+        "objective": "Explain concept 3 clearly.",
+        "narration": "Chunk 0 estimated duration: 30 seconds.",
+        "onScreenText": "Chunk 0 estimated duration: 30 seconds.",
+        "visualType": "diagram",
+        "prompt": "Create a clean educational diagram for: Chunk 0 estimated duration: 30 seconds.",
+        "negativePrompt": "No clutter, no stock-photo style, no unrelated icons, no dense paragraphs.",
+        "sourceSnippet": "This is an MVP transcript placeholder. Swap this implementation with a managed ASR API call in production. Chunk 0 estimated duration: 30 seconds."
+      }
+    ]
+  }
+}

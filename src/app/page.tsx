@@ -10,7 +10,7 @@ export default function Home() {
 
   async function uploadLecture() {
     if (!file) {
-      setStatus("Pick a lecture video first.");
+      setStatus("Pick a lecture video or MP3 first.");
       return;
     }
 
@@ -37,13 +37,13 @@ export default function Home() {
     <main style={{ maxWidth: 800, margin: "0 auto", padding: 24, display: "grid", gap: 16 }}>
       <h1>Lecture-to-Visuals MVP</h1>
       <p>
-        Upload a lecture recording to generate a cleaned transcript, condensed script, and
+        Upload a lecture video or MP3 to generate a cleaned transcript, condensed script, and
         scene-by-scene visual instructions.
       </p>
 
       <input
         type="file"
-        accept="video/*"
+        accept="video/*,audio/mpeg,.mp3"
         onChange={(event) => setFile(event.target.files?.[0] ?? null)}
       />
       <button type="button" onClick={uploadLecture} style={{ width: 220, padding: 10 }}>

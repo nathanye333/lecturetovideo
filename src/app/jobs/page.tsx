@@ -2,6 +2,9 @@ import Link from "next/link";
 
 import { listJobs } from "@/server/jobs/store";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export default function JobsPage() {
   const jobs = listJobs();
 
